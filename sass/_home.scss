@@ -1,0 +1,124 @@
+// header
+
+header {
+    .header__navStyle {
+        background-color: $white;
+        border-bottom: solid 1px $gray-200;
+    }
+
+    .nav-link:hover {
+        font-weight: $font-weight-medium;
+        color: $primary !important;
+    }
+    
+
+}
+
+
+
+// main
+
+.home__main 
+{
+.main__img {
+    width: 100%;
+    max-width: 433px;
+}
+
+.main__img:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.main__h3 {
+    font-weight: $font-weight-normal;
+}
+
+.main__h3--bold {
+    color: $primary;
+    font-weight: $font-weight-bold;
+}
+
+.main__h1 {
+    font-weight: $font-weight-black;
+    font-size: 4.25rem;
+    line-height: 4.25rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.main__h1--red {
+    color: $primary;
+}
+
+.main__p {
+    font-weight: $font-weight-normal;
+    width: 100%;
+    max-width: 800px;
+}
+
+}   
+
+
+
+// section
+
+.section__yellow {
+    background-color: $secondary;
+    width: 100%;
+
+
+.section__h2 {
+    font-weight: $font-weight-bold;
+}
+
+.section__h2--red {
+    color: $primary;
+}
+
+.pleca {
+    background-color: $primary;
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 0.625rem;
+}
+
+}
+
+
+
+// article
+
+.article__gray { 
+    background-color: $gray-100;
+
+.article__h2 {
+    font-weight: $font-weight-bold;
+}
+
+.article__h2--red {
+    color:$primary
+}
+
+.article__cards {
+    @include article-card-style() }
+
+.cards__pleca {
+        @include card-pleca-style;
+    }
+
+ .cards__p {
+                width: 100%;
+                padding-left: 10px;
+                padding-right: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                font-weight: $font-weight-medium
+ }
+
+}
+
+// footer
+
+footer {
+    background-color: $primary;
+}

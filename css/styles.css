@@ -15,6 +15,24 @@
   .main__text {
     padding-top: 1.25rem;
   }
+  .preFooter__misc--l {
+    display: none;
+  }
+  .preFooter__misc--r {
+    display: none;
+  }
+  .preFooter__ilust {
+    display: none;
+  }
+  .article__yellowPill {
+    justify-content: center;
+    text-align: center !important;
+    font-size: 1rem !important;
+    border-radius: 80px !important;
+    padding-left: 0px !important;
+    left: 0px !important;
+    position: absolute;
+  }
   footer {
     text-align: center;
   }
@@ -153,7 +171,6 @@ header a {
 }
 
 .article__white {
-  background-color: #f8f9fa;
   grid-area: "article";
 }
 
@@ -169,24 +186,73 @@ header a {
   display: flex;
   align-items: center;
   width: 90%;
-  max-width: 320px;
-  height: 110px;
+  max-width: 360px;
+  padding: 10px 20px 10px 10px;
+  height: auto;
+  min-height: 120px;
   border: solid 2px #dee2e6;
   border-radius: 80px;
 }
 
 .article__white .article__cards img {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .article__white .article__cards .cards__p {
   margin-left: 10px;
   width: 100%;
   max-width: 219px;
+  height: auto;
+}
+
+.article__white .preFooter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.article__white .preFooter img {
+  z-index: 100;
+  width: 100%;
+}
+
+.article__white .preFooter .preFooter__misc--l {
+  max-width: 38px;
+}
+
+.article__white .preFooter .preFooter__misc--r {
+  max-width: 38px;
+}
+
+.article__white .preFooter .preFooter__ilust {
+  max-width: 143px;
+}
+
+.article__white .preFooter .article__yellowPill {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 28.125rem;
+  height: 90px;
+  padding-left: 50px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  background-color: #ece768;
+  border-color: transparent;
+  border-radius: 0 50px 50px 0;
+  left: -20px;
+  position: relative;
+}
+
+.article__white .preFooter .yellowPill__h3 {
+  display: flex;
+  align-content: center;
 }
 
 footer {
   background-color: #e73555;
+  width: 100%;
 }
 
 /*!

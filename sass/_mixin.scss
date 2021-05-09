@@ -26,38 +26,21 @@
     display: flex;
     align-items: center;
     width: 80% + 10;
-    max-width: 320px;
-    height: 110px;
+    max-width: 360px;
+    padding: 10px 20px 10px 10px;
+    height: auto;
+    min-height: 120px;
     border: solid 2px $gray-300;
     border-radius: 80px;
 
     img {
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .cards__p {
         margin-left: 10px;
         width: 100%;
         max-width: 219px;
+        height: auto;
     }
 }
-
-// @mixin article-card-style() {
-//     display: flex;
-//     align-items: center;
-//     padding: 0%;
-//     width: 80% + 10;
-//     height: 5.625rem;
-//     border: solid 1px $gray-200;
-//     border-radius: 0.9375rem;
-//     background-color: $gray-100;
-//     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-// }
-// // @mixin card-pleca-style {
-// //     width: 5px;
-// //     height: 20px + 10;
-// //     display: flex;
-// //     position: relative;
-// //     border-radius: 0 10px 10px 0;
-// //     background-color: $primary;
-// // }

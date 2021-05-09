@@ -1,5 +1,5 @@
 @media (max-width:962px) {    
-
+// main
     h1 {
         text-align: center;
     }
@@ -22,6 +22,30 @@ main {
 
 .main__text {
     padding-top: 1.25rem;
+}
+
+// article
+
+.preFooter__misc--l {
+    display: none;
+}
+
+.preFooter__misc--r {
+    display: none;
+}
+
+.preFooter__ilust {
+    display: none;
+}
+
+.article__yellowPill {
+    justify-content: center;
+    text-align: center !important;
+    font-size: 1rem !important;
+    border-radius: 80px !important;
+    padding-left: 0px !important;
+    left: 0px !important;
+    position: absolute;
 }
 
 

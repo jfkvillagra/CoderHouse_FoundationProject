@@ -1,4 +1,4 @@
-@media (max-width:962px) {
+@media (max-width:962px) {    
 
     h1 {
         text-align: center;
@@ -16,23 +16,14 @@ h4 {
 }
 
 
-main div div p {
+main {
     text-align: center;
 }
 
-
-main {
-
-    div {
-
-        div
-        {
-            text-align: center;
-        }
-    }
-    
-
+.main__text {
+    padding-top: 1.25rem;
 }
+
 
 footer {    
      text-align: center;    

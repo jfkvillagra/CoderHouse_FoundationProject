@@ -129,10 +129,6 @@ header a {
   max-width: 800px;
 }
 
-.home__main .btn__custom :hover {
-  background-color: #292669 !important;
-}
-
 .section__gray {
   grid-area: "section";
   background-color: #f5f5f5;
@@ -142,6 +138,7 @@ header a {
 
 .section__gray .section__h2 {
   font-weight: 700;
+  color: #363638;
 }
 
 .section__gray .section__h2--Tertiary {
@@ -155,46 +152,37 @@ header a {
   border-radius: 0.625rem;
 }
 
-.article__gray {
+.article__white {
   background-color: #f8f9fa;
+  grid-area: "article";
 }
 
-.article__gray .article__h2 {
+.article__white .article__h2 {
   font-weight: 700;
 }
 
-.article__gray .article__h2--red {
+.article__white .article__h2--primary {
   color: #e73555;
 }
 
-.article__gray .article__cards {
+.article__white .article__cards {
   display: flex;
   align-items: center;
-  padding: 0%;
   width: 90%;
-  height: 5.625rem;
-  border: solid 1px #e9ecef;
-  border-radius: 0.9375rem;
-  background-color: #f8f9fa;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  max-width: 320px;
+  height: 110px;
+  border: solid 2px #dee2e6;
+  border-radius: 80px;
 }
 
-.article__gray .cards__pleca {
-  width: 5px;
-  height: 30px;
-  display: flex;
-  position: relative;
-  border-radius: 0 10px 10px 0;
-  background-color: #e73555;
+.article__white .article__cards img {
+  margin-left: 20px;
 }
 
-.article__gray .cards__p {
+.article__white .article__cards .cards__p {
+  margin-left: 10px;
   width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  font-weight: 500;
+  max-width: 219px;
 }
 
 footer {

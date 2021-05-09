@@ -82,10 +82,6 @@ header {
         width: 100%;
         max-width: 800px;
     }
-
-    .btn__custom :hover {
-        background-color: $tertiary !important;
-    }
 }
 
 // section
@@ -99,6 +95,7 @@ header {
 
     .section__h2 {
         font-weight: 700;
+        color: $blackFoundation;
     }
 
     .section__h2--Tertiary {
@@ -115,33 +112,40 @@ header {
 
 // article
 
-.article__gray {
+.article__white {
     background-color: $gray-100;
+    grid-area: "article";
 
     .article__h2 {
         font-weight: $font-weight-bold;
+        
+        
     }
 
-    .article__h2--red {
+    .article__h2--primary {
         color: $primary;
-    }
+    }   
 
     .article__cards {
-        @include article-card-style();
+            @include article-card-style
     }
 
-    .cards__pleca {
-        @include card-pleca-style;
-    }
+    // .article__cards {
+    //     @include article-card-style();
+    // }
 
-    .cards__p {
-        width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        font-weight: $font-weight-medium;
-    }
+    // .cards__pleca {
+    //     @include card-pleca-style;
+    // }
+
+    // .cards__p {
+    //     width: 100%;
+    //     padding-left: 0.625rem;
+    //     padding-right: 0.625rem;
+    //     display: flex;
+    //     flex-wrap: wrap;
+    //     font-weight: $font-weight-medium;
+    // }
 }
 
 // footer

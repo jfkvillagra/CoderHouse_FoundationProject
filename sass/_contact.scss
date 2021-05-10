@@ -1,14 +1,70 @@
 // main
 
+.container__contactPleca {
+    display: flex;
+    justify-content: left;
+}
+
+.contactPleca  {    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: $primary;
+    width: 100%;
+    max-width: 2rem;
+    height: 0.25rem;
+    border-radius: 0.625rem;
+}
+
 .contact__main {
-    background-color: white;
+    background-color:$white;
     height:80vh;    
 }
 
+.contact__main--marker { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact__main--phone { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .main__h2 {
-    font-weight: $font-weight-bold;
+    font-weight: 600;
+    color: $blackFoundation;
 }
 
 .main__h2--red {
     color: $primary;
+}
+
+
+    
+
+
+.form__customized {
+    border-radius: 4rem !important;
+}
+
+.form__customized--text {
+    border-radius: 1rem !important;
+}
+
+.container__btnSubmit {
+    display: flex;
+    justify-content: left;
+}
+
+.nav__button {
+    @include btn-principal-default;
+}
+
+.nav__button:hover {
+    @include btn-principal-hover;
 }

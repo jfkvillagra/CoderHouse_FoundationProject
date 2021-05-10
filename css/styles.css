@@ -27,6 +27,9 @@
     left: 0px !important;
     position: absolute;
   }
+  .container__footer--ul {
+    justify-content: flex-start !important;
+  }
   .footer__ul {
     padding: 0px;
     display: block  !important;
@@ -369,6 +372,11 @@ footer .footer___socialMedia {
 footer .footer__col--ctr {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+footer .container__footer--ul {
+  display: flex;
+  justify-content: flex-end;
 }
 
 footer .footer__ul {

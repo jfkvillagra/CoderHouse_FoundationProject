@@ -25,7 +25,6 @@ header {
     }
 
     .nav-link:hover {
-        font-weight: $font-weight-medium;
         color: $primary !important;
     }
 
@@ -142,13 +141,12 @@ header {
         }
 
         .preFooter__misc--r {
-           max-width: 38px;
+            max-width: 38px;
         }
 
         .preFooter__ilust {
             max-width: 143px;
         }
-      
 
         .article__yellowPill {
             display: flex;
@@ -158,7 +156,7 @@ header {
             height: 90px;
             padding-left: 50px;
             font-weight: 500;
-            font-size:1.5rem;
+            font-size: 1.5rem;
             line-height: 1.5rem;
             background-color: $secondary;
             border-color: transparent;
@@ -172,13 +170,74 @@ header {
             align-content: center;
         }
     }
-
-
 }
 
 // footer
 
 footer {
+    grid-area: "footer";
     background-color: $primary;
     width: 100%;
+
+    .nombreFundacion {
+        color: $blackFoundation;
+        font-size: 1.125rem;
+        font-weight: 500;
+        line-height: 1.125rem;
+        width: 100%;
+        max-width: 104px;
+        text-align: center;
+        align-content: center;
+        text-align: left;
+
+        .nombreFundacion__bold {
+            font-weight: 600;
+        }
+    }
+
+    .misc__white {
+        margin-top: 10px;
+        height: 2px;
+        width: 28px;
+        background-color: white;
+        border-color: transparent;
+        border-radius: 4px;
+    }
+
+    p {
+        margin-top: 10px;
+        margin-bottom: 0px !important;
+    }
+
+    .footer___socialMedia {
+        margin-top: 10px;
+    }
+
+    .footer__col--ctr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer__ul {
+        padding: 0px;
+        display: flex;
+        flex-wrap:wrap;
+        list-style: none;
+        
+        
+        li {
+            padding: 5px;
+            
+            a {
+                font-size: 1rem;
+                text-decoration: none;
+                color:$white
+            }
+
+            a:hover {
+                color: $gray-200;
+            }
+            
+        }
+    }
 }

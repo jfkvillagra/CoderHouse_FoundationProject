@@ -26,14 +26,6 @@ main {
 
 // article
 
-.preFooter__misc--l {
-    display: none;
-}
-
-.preFooter__misc--r {
-    display: none;
-}
-
 .preFooter__ilust {
     display: none;
 }
@@ -48,16 +40,14 @@ main {
     position: absolute;
 }
 
-
-footer {    
-     text-align: center;    
-
-    .alignCenter {
-    display: flex;
-    justify-content: center;
-    }
-
+.footer__ul {
+    padding: 0px;
+    display: block  !important;
+    flex-wrap:wrap;
+    list-style: none;
 }
+
+
 
 
 }

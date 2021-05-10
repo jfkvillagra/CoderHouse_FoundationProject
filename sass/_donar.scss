@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none ;
+}
+
+// main
+
+.donar__main {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    background-color: white;
+    height: 40.625rem;
+}
+
+.container__imgMp {
+    display: flex;
+    justify-content: center;
+}
+.img__mercadoPago {
+    width: 100%;
+    max-width: 380px;
+}
+
+.dMain__resaltado--p {
+    font-weight: 600;
+}
+
+.container__btn {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.donar__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white !important;
+    background-color: $primary;
+    box-shadow: inset 0 0 0 0 $secondary;
+    transition: ease-out 0.4s;
+    width: 200px;
+    height: 2rem;
+    border-radius: 1.25rem;
+    border-color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+.donar__button:hover {
+    box-shadow: inset 200px 0 0 0 $secondary;
+    color: $blackFoundation !important;
+}
+
+// footer
+
+footer {
+    background-color: $primary;
+    width: 100%;
+
+    .nombreFundacion {
+        color: $blackFoundation;
+        font-size: 1.125rem;
+        font-weight: 500;
+        line-height: 1.125rem;
+        width: 100%;
+        max-width: 104px;
+        text-align: center;
+        align-content: center;
+        text-align: left;
+
+        .nombreFundacion__bold {
+            font-weight: 600;
+        }
+    }
+
+    .misc__white {
+        margin-top: 10px;
+        height: 2px;
+        width: 28px;
+        background-color: white;
+        border-color: transparent;
+        border-radius: 4px;
+    }
+
+    p {
+        margin-top: 10px;
+        margin-bottom: 0px !important;
+    }
+
+    .footer___socialMedia {
+        margin-top: 10px;
+    }
+
+    .footer__col--ctr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container__footer--ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .footer__ul {
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+
+        li {
+            padding: 5px;
+
+            a {
+                font-size: 1rem;
+                text-decoration: none;
+                color: $white;
+            }
+
+            a:hover {
+                color: $gray-200;
+            }
+        }
+    }
+}

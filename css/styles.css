@@ -55,6 +55,136 @@
   }
 }
 
+@media (max-width: 962px) {
+  .container__btn {
+    justify-content: center !important;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.donar__main {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  background-color: white;
+  height: 40.625rem;
+}
+
+.container__imgMp {
+  display: flex;
+  justify-content: center;
+}
+
+.img__mercadoPago {
+  width: 100%;
+  max-width: 380px;
+}
+
+.dMain__resaltado--p {
+  font-weight: 600;
+}
+
+.container__btn {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.donar__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff !important;
+  background-color: #e73555;
+  box-shadow: inset 0 0 0 0 #ece768;
+  transition: ease-out 0.4s;
+  width: 200px;
+  height: 2rem;
+  border-radius: 1.25rem;
+  border-color: transparent;
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.donar__button:hover {
+  box-shadow: inset 200px 0 0 0 #ece768;
+  color: #363638 !important;
+}
+
+footer {
+  background-color: #e73555;
+  width: 100%;
+}
+
+footer .nombreFundacion {
+  color: #363638;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  width: 100%;
+  max-width: 104px;
+  text-align: center;
+  align-content: center;
+  text-align: left;
+}
+
+footer .nombreFundacion .nombreFundacion__bold {
+  font-weight: 600;
+}
+
+footer .misc__white {
+  margin-top: 10px;
+  height: 2px;
+  width: 28px;
+  background-color: white;
+  border-color: transparent;
+  border-radius: 4px;
+}
+
+footer p {
+  margin-top: 10px;
+  margin-bottom: 0px !important;
+}
+
+footer .footer___socialMedia {
+  margin-top: 10px;
+}
+
+footer .footer__col--ctr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer .container__footer--ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .footer__ul {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+footer .footer__ul li {
+  padding: 5px;
+}
+
+footer .footer__ul li a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .footer__ul li a:hover {
+  color: #e9ecef;
+}
+
 .container__contactPleca {
   display: flex;
   justify-content: left;

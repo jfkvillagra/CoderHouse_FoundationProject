@@ -1,60 +1,78 @@
 // Home
 
-@media (max-width:962px) { 
-    
-// main
+@media (max-width: 962px) {
+    // header
+
+    .home__header {
+        display: block;
+        justify-content: center;
+        grid-area: "header";
+        padding-top:1.25rem;
+        padding-bottom: 1.25rem;
+        width: 100%;
+        height: auto;
+        z-index: 1000;  
+    }
+    .header__nav {
+        
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .container__nav--ul {
+        margin-top: 20px;
+    }
+
+    // main
     h1 {
         text-align: center;
     }
 
     .main__h1 {
         font-size: 3.25rem;
-        line-height: 3.25rem;    
+        line-height: 3.25rem;
     }
 
+    h4 {
+        text-align: center;
+    }
 
+    main {
+        text-align: center;
+    }
 
-h4 {
-    text-align: center;
-}
+    .main__text {
+        padding-top: 1.25rem;
+    }
 
+    // article
 
-main {
-    text-align: center;
-}
+    .preFooter__ilust {
+        display: none;
+    }
 
-.main__text {
-    padding-top: 1.25rem;
-}
+    .article__yellowPill {
+        justify-content: center;
+        text-align: center !important;
+        font-size: 1rem !important;
+        border-radius: 80px !important;
+        padding-left: 0px !important;
+        left: 0px !important;
+        position: absolute;
+    }
+    .container__footer--ul {
+        justify-content: flex-start !important;
+    }
 
-// article
-
-.preFooter__ilust {
-    display: none;
-}
-
-.article__yellowPill {
-    justify-content: center;
-    text-align: center !important;
-    font-size: 1rem !important;
-    border-radius: 80px !important;
-    padding-left: 0px !important;
-    left: 0px !important;
-    position: absolute;
-}
-.container__footer--ul{
-    justify-content: flex-start !important;
-}
-
-
-.footer__ul {
-    padding: 0px;
-    display: block  !important;
-    flex-wrap:wrap;
-    list-style: none;
-}
-
-
-
-
+    .footer__ul {
+        padding: 0px;
+        display: block !important;
+        flex-wrap: wrap;
+        list-style: none;
+    }
 }

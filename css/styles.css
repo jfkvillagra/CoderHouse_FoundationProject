@@ -586,6 +586,62 @@ footer .footer__ul li a:hover {
   color: #363638 !important;
 }
 
+.h1__specialPages {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 2.5rem;
+  color: #363638;
+}
+
+.h1__specialPage--span {
+  text-align: center;
+  color: #e73555;
+}
+
+.voluntarios__ilust {
+  width: 100%;
+  max-width: 34.5rem;
+}
+
+.h3__specialPages {
+  max-width: 719px;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.section__h2 {
+  font-weight: 700;
+  color: #363638;
+}
+
+.section__h2--Tertiary {
+  color: #292669;
+}
+
+.img__voluntariado--section {
+  width: 100%;
+  max-width: 150px !important;
+}
+
+.nav__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff !important;
+  background-color: #e73555;
+  box-shadow: inset 0 0 0 0 #ece768;
+  transition: ease-out 0.3s;
+  width: 80px;
+  height: 2rem;
+  border-radius: 1.25rem;
+  border-color: transparent;
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 /*!
  * Bootstrap v5.0.0-beta3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

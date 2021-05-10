@@ -1,0 +1,46 @@
+// main
+
+
+
+.h1__specialPages {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight:900;
+    line-height:2.5rem;
+    color: $blackFoundation;
+}
+
+.h1__specialPage--span {
+    text-align: center;
+    color: $primary;    
+}
+
+.voluntarios__ilust {
+    width: 100%;
+    max-width: 34.5rem;
+}
+
+.h3__specialPages {
+        max-width: 719px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.section__h2 {
+    font-weight: 700;
+    color: $blackFoundation;
+}
+
+.section__h2--Tertiary {
+    color: $tertiary;
+}
+
+.img__voluntariado--section {
+    width: 100%;
+    max-width: 150px !important;
+}
+
+.nav__button {
+    @include btn-principal-default
+}
